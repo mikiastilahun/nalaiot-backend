@@ -4,13 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "express": "^4.16.4",
     "johnny-five": "^1.0.0",
     "nodebots-hcsr04": "git+https://github.com/ajfisher/nodebots-hcsr04.git",
     "nodebots-interchange": "^1.3.0",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.2.0",
+    "twilio": "^3.29.1"
   }
 }
